@@ -1,5 +1,8 @@
 package com.moctho.mockthoapi.model;
 
+import lombok.Data;
+
+@Data
 public class BaseRespond<T> {
 
     public  boolean status;
